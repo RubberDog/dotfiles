@@ -104,3 +104,4 @@ source $ZSH/oh-my-zsh.sh
 alias ll="ls -la"
 alias addkeys="sh ~/.bin/addkeys.sh"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias sshvms='ssh -L1336:192.168.131.100:443 -L1337:192.168.131.100:22 -L1338:192.168.131.103:443 horus'
